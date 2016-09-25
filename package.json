@@ -1,9 +1,12 @@
 {
   "name": "gubanov.eu",
+  "private": true,
   "version": "0.0.0",
-  "description": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "http-server -p 8067 -a localhost -o -s",
+    "ngrok": "ngrok http 8067",
+    "start": "npm-run-all --parallel serve ngrok"
   },
   "repository": {
     "type": "git",
@@ -13,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/finom/gubanov.eu/issues"
   },
-  "homepage": "https://github.com/finom/gubanov.eu#readme"
+  "homepage": "https://github.com/finom/gubanov.eu#readme",
+  "devDependencies": {
+    "http-server": "^0.9.0",
+    "ngrok": "^2.2.3",
+    "npm-run-all": "^3.1.0"
+  }
 }
