@@ -17,14 +17,9 @@ html {
 body {
     background: #352023 url(photo.jpg) center center;
     background-size: cover;
-    padding: 5%;
+    padding: 5% 20% 5% 5%;
 }
 
-@media only screen and (max-device-width: 568px) {
-    body {
-        background-position: -400px center;
-    }
-}
 
 h1 {
     font-weight: 100;
@@ -65,4 +60,22 @@ main a {
     display: inline-block;
     padding: 0 7px;
     margin: 3px 3px 3px 0;
+}
+
+@media only screen and (max-device-width: 568px) {
+    body {
+        background-position: -400px center;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
 }
