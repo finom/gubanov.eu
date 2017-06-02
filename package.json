@@ -4,8 +4,8 @@
   "version": "0.0.0",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "http-server -p 8067 -a localhost -o -s",
-    "ngrok": "ngrok http 8067",
+    "serve": "http-server -p 8065 -a localhost -o -s",
+    "ngrok": "ngrok http 8065",
     "start": "npm-run-all --parallel serve ngrok"
   },
   "repository": {
@@ -21,5 +21,13 @@
     "http-server": "^0.9.0",
     "ngrok": "^2.2.3",
     "npm-run-all": "^3.1.0"
-  }
+  },
+  "main": "index.js",
+  "dependencies": {
+    "http-server": "^0.9.0",
+    "ngrok": "^2.2.3",
+    "npm-run-all": "^3.1.0"
+  },
+  "license": "ISC",
+  "description": ""
 }
