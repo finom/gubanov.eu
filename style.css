@@ -15,25 +15,25 @@ html {
 }
 
 body {
-    background: #352023 url(photo.jpg) center center;
+    background: #352023 url(photos/0.jpg) center center;
     background-size: cover;
     padding: 5% 20% 5% 5%;
 }
 
 
 h1 {
-    font-weight: 100;
+    font-weight: 300;
     color: #fff;
     font-size: 3rem;
 }
 
 h1 span {
-    font-weight: 100;
+    font-weight: 300;
     color: #f4d4ca;
 }
 
 h2 {
-    font-weight: 300;
+    font-weight: 400;
     color: #fff;
     font-size: 1.5rem;
     margin-top: 0.5rem;
