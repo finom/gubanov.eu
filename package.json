@@ -19,12 +19,12 @@
   "homepage": "https://github.com/finom/gubanov.eu#readme",
   "devDependencies": {
     "http-server": "^0.9.0",
-    "ngrok": "^2.2.3",
+    "ngrok": "^5.0.0-beta.2",
     "npm-run-all": "^3.1.0"
   },
   "main": "index.js",
   "dependencies": {
-    "ngrok": "^2.2.3",
+    "ngrok": "^5.0.0-beta.2",
     "npm-run-all": "^3.1.0"
   },
   "license": "UNLICENSED",
